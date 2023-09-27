@@ -9,8 +9,6 @@ const PostDetails = () => {
     const handleGoBack = () => {
         navigate(-1)
     }
-
-    console.log(postId);
     return (
         <div>
             <h3 className="text-2xl font-bold my-6" >Post Details about : {id}</h3>
